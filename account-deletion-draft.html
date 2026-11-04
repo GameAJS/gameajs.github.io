@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Account Deletion | GameAJS</title>
+  <meta name="description" content="Request deletion of your Epic Roots account and associated data.">
+
+  <!--
+    PRE-PUBLICATION DRAFT
+    Before final publication:
+    - Verify live account deletion functionality.
+    - Verify manual support request handling.
+    - Confirm the 168-hour deletion schedule.
+    - Validate the 42-entity retention matrix.
+    - Confirm any applicable legal retention periods.
+  -->
+
+  <style>
+    :root {
+      --bg: #0b1120;
+      --surface: #151e30;
+      --gold: #dbb46b;
+      --ivory: #f5eedf;
+      --muted: #a8b2c3;
+      --line: #ffffff20;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ivory);
+      font-family: system-ui, -apple-system,
+        "Segoe UI", sans-serif;
+      line-height: 1.8;
+    }
+
+    a {
+      color: var(--gold);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding: 22px 7%;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 65px 24px 90px;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: .8rem;
+    }
+
+    h1, h2 {
+      font-family: Georgia, serif;
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      line-height: 1.2;
+      margin: 15px 0;
+    }
+
+    h2 {
+      color: var(--gold);
+      margin-top: 40px;
+      font-size: 1.5rem;
+    }
+
+    p, li {
+      color: #c9d1df;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 28px;
+      margin-top: 28px;
+    }
+
+    .draft-notice {
+      border-left: 4px solid var(--gold);
+      padding: 14px 20px;
+      background: #dbb46b16;
+      border-radius: 6px;
+      margin-top: 25px;
+    }
+
+    .draft-notice p {
+      margin: 0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 26px;
+      background: var(--gold);
+      border-radius: 6px;
+      color: #151515;
+      text-decoration: none;
+      font-weight: 700;
+      margin-top: 15px;
+    }
+
+    .button:hover {
+      background: #efd096;
+    }
+
+    .email {
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+      }
+
+      nav a {
+        margin: 0 9px;
+      }
+
+      main {
+        padding: 40px 20px 70px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <a href="/" class="brand">GameAJS</a>
+  <nav aria-label="Main navigation">
+    <a href="/">Home</a>
+    <a href="#request">Request Deletion</a>
+    <a href="#contact">Support</a>
+  </nav>
+</header>
+
+<main>
+
+  <div class="eyebrow">GameAJS / Account & Privacy</div>
+
+  <h1>Account Deletion</h1>
+
+  <p>
+    Request deletion of your account and associated
+    personal data for
+    <strong>Epic Roots: Chowka Bara &amp; More</strong>,
+    an Android game developed by GameAJS.
+  </p>
+
+  <div class="draft-notice">
+    <p>
+      <strong>Pre-publication draft:</strong>
+      This page is being prepared for the game's
+      release. The live account-deletion process
+      is undergoing verification.
+    </p>
+  </div>
+
+  <section id="request">
+    <h2>1. How to Request Account Deletion</h2>
+
+    <p>
+      You can submit an account-deletion request
+      by contacting GameAJS support.
+      You do not need to reinstall the game
+      to contact us.
+    </p>
+
+    <div class="card">
+      <h3>Request deletion by email</h3>
+
+      <p>
+        Send an email with the subject:
+        <strong>Epic Roots - Account Deletion Request</strong>
+      </p>
+
+      <p>
+        Please include your game display name
+        or Account ID, if available.
+        If possible, contact us from the email
+        associated with your linked account.
+      </p>
+
+      <a
+        class="button"
+        href="mailto:epicroots.gameajs@gmail.com?subject=Epic%20Roots%20-%20Account%20Deletion%20Request"
+      >
+        Request Account Deletion
+      </a>
+
+      <p class="email">
+        Email:
+        <a href="mailto:epicroots.gameajs@gmail.com">
+          epicroots.gameajs@gmail.com
+        </a>
+      </p>
+    </div>
+
+    <p>
+      If you use a guest account or cannot
+      access your linked email, describe
+      your situation in your request so
+      support can explain the available
+      account-verification process.
+    </p>
+
+    <p>
+      Never send your password, authentication
+      tokens, payment card details, or other
+      sensitive credentials.
+    </p>
+  </section>
+
+  <section>
+    <h2>2. Account Verification</h2>
+
+    <p>
+      GameAJS may request additional information
+      to confirm that the account belongs to you.
+      This protects accounts from unauthorized
+      deletion requests.
+    </p>
+
+    <p>
+      Sending an email starts the support
+      request process. It does not automatically
+      delete your account.
+    </p>
+  </section>
+
+  <section>
+    <h2>3. What Account Deletion Covers</h2>
+
+    <p>
+      Account deletion is intended to remove
+      or anonymize the account and associated
+      personal data, except for information
+      that must legitimately be retained.
+    </p>
+
+    <p>
+      Depending on the account, associated
+      information may include:
+    </p>
+
+    <ul>
+      <li>Game account and profile information</li>
+      <li>Linked authentication information</li>
+      <li>Friends and social account associations</li>
+      <li>Gameplay progress, statistics and achievements</li>
+      <li>Player-specific game settings</li>
+      <li>Virtual wallet and cosmetic ownership records</li>
+      <li>Player-associated multiplayer records</li>
+    </ul>
+
+    <p>
+      Deleting your account may permanently
+      remove access to game progress and
+      virtual items associated with that account.
+    </p>
+  </section>
+
+  <section>
+    <h2>4. Information That May Be Retained</h2>
+
+    <p>
+      Limited information may need to be
+      retained for legitimate purposes,
+      including:
+    </p>
+
+    <ul>
+      <li>Compliance with applicable legal obligations</li>
+      <li>Purchase, refund or payment disputes</li>
+      <li>Fraud prevention and account security</li>
+      <li>Required financial or transaction records</li>
+      <li>Outstanding legal holds or investigations</li>
+      <li>Minimal records necessary to document deletion</li>
+    </ul>
+
+    <p>
+      Any retained information should be limited
+      to what is necessary for the applicable
+      purpose and retained only for the
+      relevant required period.
+    </p>
+
+    <p>
+      The precise retention categories,
+      exceptions and periods must be confirmed
+      against GameAJS's operational retention
+      policy before this draft is finalized.
+    </p>
+  </section>
+
+  <section>
+    <h2>5. Deletion Processing and Cancellation</h2>
+
+    <p>
+      Once your request and account ownership
+      have been reviewed, GameAJS support
+      will provide information about the
+      applicable deletion process and status.
+    </p>
+
+    <p>
+      Any applicable pending-deletion period,
+      cancellation options and completion
+      timeline will be explained during
+      the verified request process.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>6. Questions or Support</h2>
+
+    <p>
+      If you need assistance with account
+      access, deletion, or privacy questions,
+      contact:
+    </p>
+
+    <p>
+      <strong>Developer:</strong> GameAJS<br>
+      <strong>Game:</strong> Epic Roots:
+      Chowka Bara &amp; More<br>
+      <strong>Email:</strong>
+      <a class="email"
+         href="mailto:epicroots.gameajs@gmail.com">
+        epicroots.gameajs@gmail.com
+      </a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 GameAJS. All rights reserved.</p>
+  <p><a href="/">Return to GameAJS</a></p>
+</footer>
+
+</body>
+</html>
